@@ -21,3 +21,4 @@ module.exports = {
     message.channel.send(`${target.user.username} has obtained a role`);
   }
 };
+// Credits: NONE
