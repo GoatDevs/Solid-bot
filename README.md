@@ -4,8 +4,10 @@
 # Features | Solid's Commands / Featurs
  - 💈 | Administration: Addrole, removerole, purge and many more coming!
  - 💈 | Help: Help, ping, many more coming soon!
-
-
+-->
+**NPM Packages used:**
+- discord.js
+- ascii-table
 # Last Updated / Project Worked On
 Last Updated : 3/9/2021 at 1:30 PM
 
