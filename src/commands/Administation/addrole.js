@@ -18,7 +18,11 @@ module.exports = {
     if (!role) return message.channel.send("No role specified"); //when no role is specified or pinged
     //now the code!
     await target.roles.add(role); // adding the role to the user
-    message.channel.send(`${target.user.username} has obtained a role`);
+    const roleaddedembed = new discord.MessageEmbed()
+      .setTitle('Role Has Been Added!')
+      .setDescription(`${target.user.username} has obtained a role`)
+      .setFooter('Open Source By https://github.com/GoatDevs/Solid-bot')
+    message.channel.send(roleaddedembed);
   }
 };
-// Credits: NONE
+// Note: If embed doesnt work. Please contact me!
